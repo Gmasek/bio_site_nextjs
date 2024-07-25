@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import me from "../../public/me_irl.jpg"
-import abouttext from "../texts/Abouttext";
+import {abouttext} from "../texts/Texts";
 import { TbBrandPython } from "react-icons/tb";
 import { SiJavascript } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";

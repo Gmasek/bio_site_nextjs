@@ -2,7 +2,9 @@ import Component from "@/components/Component";
 import IntroComp from "@/components/IntroComp";
 import Image from "next/image";
 import felix from '../../public/felix2.jpg'
-import {para1,para2} from "../texts/Unitext";
+import {studies1,studies2} from "../texts/Texts";
+import TechComp from "@/components/TechComp";
+import ButtonComponent from "@/components/ButtonComponent";
 export default function Home() {
   return (
     <main className="flex flex-col  bg-slate-400/25 min-h-screen items-center gap-20">
@@ -12,12 +14,14 @@ export default function Home() {
       
     </div>
     <div className="gap-20 w-2/3 h-full pt-5 ">
-      <Component headline="Studies" paragraph_1={para2} paragraph_2={para2} />
+      <Component headline="Studies"  paragraph_2={studies1} paragraph_3={studies2} className="w-full flex-col" />
     </div>
     <div className="gap-20 w-2/3 h-full pt-5 ">
-
+      <TechComp  />
     </div>
-      
+    <div className="gap-20 w-2/3 h-full pt-5 ">
+      <ButtonComponent label="Projects" />
+    </div>
     </main>
   );
 }
