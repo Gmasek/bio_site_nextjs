@@ -19,7 +19,7 @@ type Props = {
 export default function Component(props: Props) {
     
   return (
-    <div className='flex flex-col bg-slate-400/90 border-black  rounded-3xl p-2 m-3 '>
+    <div className='flex flex-col bg-gradient-to-b from-zinc-500/90 to-zinc-800/90 border-black  rounded-3xl p-2 m-3 '>
         <h1 className='text-3xl text-white text-center'>{props.headline}</h1>
 
         <div className={cn('w-full h-full flex  gap-3 pt-5 items-center',props.className)}>

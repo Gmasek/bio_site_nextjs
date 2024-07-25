@@ -4,7 +4,7 @@ type Props = {}
 
 export default function TechComp({}: Props) {
   return (
-    <div className='flex flex-col bg-slate-400/90 border-black  rounded-3xl p-2 m-3 '>
+    <div className='flex flex-col bg-gradient-to-tl from-zinc-500/90 to-zinc-800/90 border-black  rounded-3xl p-2 m-3 '>
         <h1 className='text-3xl text-white text-center'>Technologies</h1>
         <div className='w-full h-full flex  gap-10 pt-5 items-center'>
             <div className='gap-4 pr-3 flex flex-col items-start justify-center text-justify h-full p-5'  >

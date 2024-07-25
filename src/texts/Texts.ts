@@ -63,4 +63,13 @@ export const felix_2 = `I integrated a new back-end with old interfaces, a commu
 export const felix_3 = ` This project was just a temporary solution that was needed so the team working 
                 with the old ticketing system could change to a new one. 
                 The design reflects that it just had to work and eventually it will be changed in the future, 
-                when other infrastructure changes.` 
+                when other infrastructure changes.`
+                
+export const synctool_1= `The Ticket Syncing tool was developed for solving the problem of having two tfs boards, 
+                one secure and one less secure, and to sync work-items in those boards.`
+export const synctool_2= `I wrote the back end of this application and designed the base architecture.
+                        Since this was going to be a tool with a GUI in future development,
+                        I wrote the functionality of syncing and all the data layers.`
+export const synctool_3= `This tool works with tfs API similar to my previous project syncing is implemented 
+                in a super user configured way (stored in a user edited JSON) and can configure the fields to sync attachments, etc.
+                This tool will be used by developers , thats why the settings are stored in a JSON. `

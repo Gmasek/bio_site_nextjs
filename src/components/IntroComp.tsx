@@ -16,7 +16,7 @@ type Props = {}
 
 export default function IntroComp({}: Props) {
   return (
-    <div className='flex flex-col bg-slate-400/90 border-black  rounded-3xl p-2 m-3 '>
+    <div className='flex flex-col bg-gradient-to-t from-zinc-500/90 to-zinc-800/90 border-black  rounded-3xl p-2 m-3 '>
         <h1 className='text-3xl text-white text-center'>About me</h1>
         <div className='w-full h-full flex  gap-3 pt-5 items-center'>
             <div className='w-1/3 h-1/3  '>
@@ -32,16 +32,16 @@ export default function IntroComp({}: Props) {
 
         <div className='w-fullh-full text-xl text-white text-center'> 
             <p className='pb-4 text-2xl'>My tech stack:</p>
-            <ul className='w-full list-disc list-inside justify-between flex flex-row text-slate-800/90 text-6xl sm:text-4xl '>
-                <p> <TbBrandPython /></p>
-                <p><SiJavascript /></p>
-                <p><SiTypescript /></p>
-                <p><FaJenkins /></p>
-                <p><SiAzuredevops /></p>
-                <p><RiReactjsFill /></p>
-                <p><SiDjango /></p>
-                <p><RiNextjsFill /></p>
-                <p><FaNodeJs /></p>
+            <ul className='w-full list-disc list-inside justify-between flex flex-row text-slate-800/90 text-6xl sm:text-5xl'>
+                <p> <TbBrandPython className='text-black-300'/></p>
+                <p><SiJavascript className='text-yellow-300/90 bg-black' /></p>
+                <p><SiTypescript className='text-blue-300/90 bg-white'/></p>
+                <p><FaJenkins className='text-orange-400 ' /></p>
+                <p><SiAzuredevops className='text-blue-600'/></p>
+                <p><RiReactjsFill className='text-blue-500'/></p>
+                <p><SiDjango className='text-green-800'/></p>
+                <p><RiNextjsFill className='' /></p>
+                <p><FaNodeJs className='text-green-500' /></p>
                 <p><FaGithub /></p>
             </ul>   
         </div>
