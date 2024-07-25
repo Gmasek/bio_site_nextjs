@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import me from "../../public/me_irl.jpg"
 import {abouttext} from "../texts/Texts";
 import { TbBrandPython } from "react-icons/tb";
 import { SiJavascript } from "react-icons/si";
@@ -12,6 +11,7 @@ import { SiDjango } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import me_irl from '../../public/me_irl.jpg'
 type Props = {}
 
 export default function IntroComp({}: Props) {
@@ -20,7 +20,7 @@ export default function IntroComp({}: Props) {
         <h1 className='text-3xl text-white text-center'>About me</h1>
         <div className='w-full h-full flex  gap-3 pt-5 items-center'>
             <div className='w-1/3 h-1/3  '>
-               <Image src={me}  alt="image" width={350} className='rounded-3xl' />
+               <Image src={me_irl}  alt="image" width={2000} height={2000} className='rounded-3xl' />
             </div>
             <div className='w-2/3 text-justify pr-3 flex items-center justify-center h-full '>
                 <p className='flex items-center'>

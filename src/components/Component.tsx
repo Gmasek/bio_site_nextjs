@@ -23,7 +23,7 @@ export default function Component(props: Props) {
         <h1 className='text-3xl text-white text-center'>{props.headline}</h1>
 
         <div className={cn('w-full h-full flex  gap-3 pt-5 items-center',props.className)}>
-            {props.image !== undefined ? <Image src={props.image }  alt="image"  className='rounded-3xl w-full ' /> : <></>} 
+            {props.image !== undefined ? <Image src={props.image }  alt="image" width={2000} height={2000} className='rounded-3xl w-full ' /> : <></>} 
             {props.subheading !== undefined ? <h2 className={cn('w-1/3 h-1/3 text-xl underline', props.className)}>{props.subheading}</h2> : <></>}
             {props.paragraph_1 !== undefined ? 
                 <div className={cn('w-2/3 text-justify pr-3 flex items-center justify-center h-full ', props.className)}>
