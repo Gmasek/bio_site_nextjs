@@ -9,14 +9,14 @@ export  const studies1 = `
 
                 
              
-export const studies2 =            `During my time at Corvinus University, I received the opportunity to travel abroad to Vancouver,
+export const studies2 =`During my time at Corvinus University, I received the opportunity to travel abroad to Vancouver,
                  Canada on exchange at University of British Columbia to further study economics based courses. 
                  I was also given the opportunity to work on a project which I have great interest in for my Bachelor's thesis: 
                  the use of machine learning for predicting stock movement , where I've gained experience
                  in the of use new technologies such as Python, pandas, numpy and Sklearn. 
                 `
 
-export const abouttext=  `Welcome to my website! I am a 25 years old software engineer from Budapest,
+export const abouttext=  `Welcome to my website! I am a 26 years old software engineer from Budapest,
                 Hungary with an academic history in business and computer science.
                 I see in my future self either in full-stack development or data science and machine learning.
                 Aside from my academic and professional career, I have a passion for coding and various extreme sports.

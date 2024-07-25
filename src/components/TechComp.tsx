@@ -23,7 +23,7 @@ export default function TechComp({}: Props) {
                         Devops
                     </h2>
                     <p >
-                        I have experience working with Jenkins CI/CD pipeline. And I've also worked with azure DevOps pipelines.
+                        I have experience working with Jenkins CI/CD pipeline. And I&apos;ve also worked with azure DevOps pipelines.
                     </p>
                 </ul>
                 <ul>
@@ -40,7 +40,7 @@ export default function TechComp({}: Props) {
                         Numpy, Pandas ,Sklearn
                     </h2>
                     <p>
-                        For my Bachelors thesis work I've learnt using these python libaries to be able to work with big datasets
+                        For my Bachelors thesis work I&apos;ve learnt using these python libaries to be able to work with big datasets
                         and create forecasting models.
                     </p>
                 </ul>
@@ -68,7 +68,7 @@ export default function TechComp({}: Props) {
                         JavaScript, Typescript ,Html,Css,Php
                     </h2>
                     <p >
-                    I've worked with these technologies mainly at university, and recently when I started learning and developing in React.
+                    I&apos;ve worked with these technologies mainly at university, and recently when I started learning and developing in React.
                     Recently I started using Typescript when using React and NextJs
                     Currently, I use tailwindCSS for styling.
                     </p>
@@ -78,8 +78,8 @@ export default function TechComp({}: Props) {
                         Familiar operating systems:              
                     </h2>
                     <p >
-                    Professionally I've developed for Windows and linux(Rh-6/Rh-8) systems  mainly command line applications. 
-                    I'm also familiar with MacOs which I use for personal development.
+                    Professionally I&apos;ve developed for Windows and linux(Rh-6/Rh-8) systems  mainly command line applications. 
+                    I&apos;m also familiar with MacOs which I use for personal development.
                     </p>       
                 </ul>
                 <h2 className="text-lg xl:text-xl  underline ">
