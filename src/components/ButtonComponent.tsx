@@ -30,26 +30,28 @@ export default function ButtonComponent(props: Props) {
 
 
   return (<>
-        <div className='flex flex-col bg-zinc-600/90 border-black  rounded-3xl p-2 m-3  gaő'>
+        <div className='flex flex-col bg-zinc-600/90 border-black  rounded-3xl p-2 m-3  '>
             <h2 className='text-3xl text-white text-center'>{props.label}</h2>
-            <div className="flex m-4 flex-row p-4 gap-4 justify-evenly " >
-                 <button className=" p-2 mb-2 bg-teal-600/80 text-3xl text-white rounded-xl hover:bg-blue-800/60
-                        sm:text-base w-[200px]
-                          "  
+            <div className="flex m-4 flex-row  gap-4 justify-evenly " >
+                 <button className=" p-2 mb-2 bg-teal-600/80 md:text-lg text-white rounded-xl hover:bg-blue-800/60
+                         lg:w-[200px] text-xs  sm:w-[75px]  w-[55px]
+                          " 
                   onClick={ ()=> handleClick(showResearch,setShowResearch)}>{"Thesis project"}</button>
-                 <button className=" p-2 mb-2 bg-teal-600/80 text-3xl text-white rounded-xl hover:bg-blue-800/60
-                        sm:text-base w-[200px]
+                 <button className=" p-2 mb-2 bg-teal-600/80 md:text-lg text-white rounded-xl hover:bg-blue-800/60
+                         lg:w-[200px]  text-xs sm:w-[75px]  w-[55px]
                           "  
                  onClick={ ()=> handleClick(showWorkpoject1,setShowWorkpoject1)}>{"Work project 1."}</button>
-                 <button className=" p-2 mb-2 bg-teal-600/80 text-3xl text-white rounded-xl hover:bg-blue-800/60
-                        sm:text-base w-[200px]
-                          "  
+                 <button className=" p-2 mb-2 bg-teal-600/80 md:text-lg text-white rounded-xl hover:bg-blue-800/60
+                         lg:w-[200px]  text-xs sm:w-[75px] w-[55px]
+                          " 
                   onClick={ ()=> handleClick(showWorkpoject2,setShowWorkpoject2)}>{"Work project 2."}</button>
-                 <button  className=" p-2 mb-2 bg-teal-600/80 text-3xl text-white rounded-xl hover:bg-blue-800/60
-                        sm:text-base w-[200px]
+                 <button  className=" p-2 mb-2 bg-teal-600/80 md:text-lg text-white rounded-xl hover:bg-blue-800/60
+                        lg:w-[200px]  text-xs sm:w-[75px]  w-[55px]
                           "  
                  onClick={ ()=> handleClick(showWorkpoject3,setShowWorkpoject3)}>{"Work project 3."}</button>
-                 <button className=" p-2 mb-2 bg-blue-400 text-2xl text-white rounded hover:bg-blue-600 sm:text-base w-[200px]" >
+                 <button className=" p-2 mb-2 bg-teal-600/80 md:text-lg text-white rounded-xl hover:bg-blue-800/60
+                         lg:w-[200px] text-xs  sm:w-[75px]  w-[55px]
+                          "   >
                     <a href="https://github.com/Gmasek/Investmenttracker" target="_blank" rel="noopener noreferrer">{"Full-stack hobby project"}</a>
                  </button>
                  
@@ -57,14 +59,14 @@ export default function ButtonComponent(props: Props) {
         </div>
         {showResearch && <Component headline='Thesis Work' subheading='Main technoligies: Python, Pandas, Numpy, Sklearn'
         paragraph_1={thesiswork_1} paragraph_2={thesiswork_2} className="w-full flex-col"/>}
-        {showWorkpoject1 && <Component headline='Vulnerability Checker tool' image={vw}
+        {showWorkpoject1 && <Component headline='Vulnerability Checker tool' image='vw.jpg'
         subheading='Main technoligies: Python , Jenkins'
          paragraph_1={vulnwarner_1} paragraph_2={vulnwarner_2} paragraph_3={vulvarner_3} className='w-full flex-col p-3'/>}
         {showWorkpoject2 && <Component headline='Ticketing system tool new backend' 
-        image={Felix2} subheading='Main technoligies: Python, Tcl/tk, Bash'
+        image="Felix2.jpg" subheading='Main technoligies: Python, Tcl/tk, Bash'
          paragraph_1={felix_1} paragraph_2={felix_2} paragraph_3={felix_3} className='w-full flex-col p-3'/>}
         {showWorkpoject3 && <Component headline='Ticket Syncing tool' subheading='Main technology: Python,Azure'
-        image={Newsync}
+        image="Newsync.jpg"
         paragraph_1={synctool_1} paragraph_2={synctool_2} paragraph_3={synctool_3} className='w-full flex-col p-3'/>}
     </>
     

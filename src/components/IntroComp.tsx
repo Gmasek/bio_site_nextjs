@@ -11,28 +11,28 @@ import { SiDjango } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import me_irl from '../../public/me_irl.jpg'
+import me_irl from '../../public/me_irl.png'
 type Props = {}
 
 export default function IntroComp({}: Props) {
   return (
     <div className='flex flex-col bg-gradient-to-t from-zinc-500/90 to-zinc-800/90 border-black  rounded-3xl p-2 m-3 '>
         <h1 className='text-3xl text-white text-center'>About me</h1>
-        <div className='w-full h-full flex  gap-3 pt-5 items-center'>
-            <div className='w-1/3 h-1/3  '>
-               <Image src={me_irl}  alt="image" width={2000} height={2000} className='rounded-3xl' />
+        <div className='w-full h-full flex flex-col md:flex-row gap-3 pt-5 items-center'>
+            <div className=' md:w-1/3 w-full sm:w-3/5 h-1/3  '>
+               <img src='me_irl.jpg'  alt="image"  className='rounded-3xl' />
             </div>
-            <div className='w-2/3 text-justify pr-3 flex items-center justify-center h-full '>
-                <p className='flex items-center'>
-                    {abouttext}
-                </p>
-
+            <div className='w-full text-justify pr-3 flex items-center sm:w-2/3 justify-center h-full '>
+                    <p className='flex items-center'>
+                        {abouttext}
+                    </p>
             </div>
         </div>
-
+        
+        
         <div className='w-fullh-full text-xl text-white text-center'> 
             <p className='pb-4 text-2xl'>My tech stack:</p>
-            <ul className='w-full list-disc list-inside justify-between flex flex-row text-slate-800/90 text-6xl sm:text-5xl'>
+            <ul className='w-full list-disc list-inside justify-between flex flex-row text-slate-800/90 text-2xl sm:text-3xl lg:text-5xl'>
                 <p> <TbBrandPython className='text-black-300'/></p>
                 <p><SiJavascript className='text-yellow-300/90 bg-black' /></p>
                 <p><SiTypescript className='text-blue-300/90 bg-white'/></p>
